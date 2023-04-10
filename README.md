@@ -52,8 +52,23 @@ Then, uncompress this `.zip` file and replace the current `data/movie/` folder.
 
 
 ## Getting Started
+The K-GCN framework is implemented by the following components:
+- `data_loader.py`: Prepare and load movie recommendation data.
+- `model.py`: Reproduce the K-GCN model.
+- `aggregator.py`: Reproduce the Sum and Concat aggragators in K-GCN.
 
+The main scripts are provided in the `myKGCN.ipynb` notebook, with reproducible steps. Follow the procedures in this notebook then you can get the exact same outputs as those in the submitted report.
 
+The configuration of the ablation study is attached as follows:
+
+| # | Variant | Aggregator Type | Number of Iterations | Number of Embedding Dimensions |
+| :-: | :-----: | :-------------: | :-------------: | :-------------: |
+| (a) | `Iter1_Sum_Dim16` | Summation | 1 | 16 |
+| (b) | `Iter2_Sum_Dim16` | Summation | 2 | 16 |
+| (c) | `Iter2_Sum_Dim32` | Summation | 2 | 32 |
+| (d) | `Iter1_Concat_Dim16` | Concatenation | 1 | 16 |
+| (e) | `Iter2_Concat_Dim16` | Concatenation | 2 | 16 |
+| (f) | `Iter2_Concat_Dim32` | Concatenation | 2 | 32 |
 
 ## Result
 
