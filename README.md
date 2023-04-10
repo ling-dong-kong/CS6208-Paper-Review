@@ -82,7 +82,7 @@ The configuration of the ablation study is attached as follows:
 | Accuracy Score | 0.975 | 0.958 | 0.960 | 0.984 | 0.976 | 0.977 |
 
 ## Reference
-- [(Wang et al., 2018)](https://arxiv.org/abs/1803.03467 Wang, H., Zhang, F., Wang, J., Zhao, M., Li, W., Xie, X., and Guo, M. "Ripplenet: Propagating user preferences on the knowledge graph for recommender systems." In *Proceedings of the ACM International Conference on Information and Knowledge Management*, pp. 417–426, 2018.
+- [(Wang et al., 2018)](https://arxiv.org/abs/1803.03467) Wang, H., Zhang, F., Wang, J., Zhao, M., Li, W., Xie, X., and Guo, M. "Ripplenet: Propagating user preferences on the knowledge graph for recommender systems." In *Proceedings of the ACM International Conference on Information and Knowledge Management*, pp. 417–426, 2018.
 - [(Huang et al., 2018)](https://static.aminer.cn/upload/pdf/890/478/667/5b67b46f17c44aac1c8631c3_0.pdf) Huang, J., Zhao, W. X., Dou, H., Wen, J.-R., and Chang, E. Y. "Improving sequential recommendation with knowledge-enhanced memory networks." In *ACM SIGIR Conference on Research & Development in Information Retrieval*, pp. 505–514, 2018.
 - [(Wang et al., 2019)](https://arxiv.org/abs/1904.12575) Wang, H., Zhao, M., Xie, X., Li, W., and Guo, M. "Knowledge graph convolutional networks for recommender systems." In *The World Wide Web Conference (WWW)*, pp. 3307–3313, 2019.
 
