@@ -10,8 +10,8 @@ Collaborative filtering is a traditional technique for solving user-specific rec
 
 <p align="center">
   <img src="figure/framework.png" align="center" width="60%">
-  <br><br>
-  Fig. Illustrations of (a) A two-layer receptive field of an entity in a KG. (b) The framework of K-GCN. Images adopted from (Wang et al., 2019).
+  <br>
+  Fig. Illustrations of (a) A two-layer receptive field of an entity (blue node) in a KG. (b) The framework of K-GCN. Images adopted from (Wang et al., 2019).
 </p>
 
 
@@ -30,9 +30,14 @@ conda activate my_kgcn
 ```
 conda install pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=11.3 -c pytorch
 ```
-
+- Step 4: Install Necessary Libraries
+```
+pip install numpy matplotlib sklearn
+```
 
 ## Data Preparation
+We subsample a 10\% subset of MovieLens-20M as our dataset, where ratings greater than 3 are considered positive. We split the dataset into a training set and a test set in an 8:2 ratio and use the KG from [(Wang et al., 2019)](https://arxiv.org/abs/1904.12575).
+
 
 
 ## Getting Started
