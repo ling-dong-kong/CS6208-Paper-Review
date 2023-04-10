@@ -32,15 +32,27 @@ conda install pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=11.3 -c pytorch
 ```
 - Step 4: Install Necessary Libraries
 ```
-pip install numpy matplotlib sklearn
+pip install numpy matplotlib sklearn pandas
 ```
 
 ## Data Preparation
-We subsample a 10\% subset of MovieLens-20M as our dataset, where ratings greater than 3 are considered positive. We split the dataset into a training set and a test set in an 8:2 ratio and use the KG from [(Wang et al., 2019)](https://arxiv.org/abs/1904.12575).
+We subsample a 10\% subset of [MovieLens-20M](https://grouplens.org/datasets/movielens/20m/) as our dataset, where ratings greater than 3 are considered positive. We split the dataset into a training set and a test set in an 8:2 ratio and use the KG from [(Wang et al., 2019)](https://arxiv.org/abs/1904.12575).
 
+Download the complete [MovieLens-20M](https://grouplens.org/datasets/movielens/20m/) using the following commands:
+```
+wget http://files.grouplens.org/datasets/movielens/ml-20m.zip
+unzip ml-20m.zip
+mv ml-20m/ratings.csv data/movie/
+```
+
+Alternatively, you can download the data from my Google Drive via the following link:<br>
+🔗 https://drive.google.com/file/d/1nyqaNs-HboPjFuGowENWgQUsRBM-zJFV/view?usp=sharing.
+
+Then, uncompress this `.zip` file and replace the current `data/movie/` folder.
 
 
 ## Getting Started
+
 
 
 ## Result
