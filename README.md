@@ -10,8 +10,8 @@ Collaborative filtering is a traditional technique for solving user-specific rec
 
 <p align="center">
   <img src="figure/framework.png" align="center" width="60%">
-  <br>
-  Fig. (a) A two-layer receptive field of an entity in a KG. (b) The framework of K-GCN. Images adopted from (Wang et al., 2019).
+  <br><br>
+  Fig. Illustrations of (a) A two-layer receptive field of an entity in a KG. (b) The framework of K-GCN. Images adopted from (Wang et al., 2019).
 </p>
 
 
